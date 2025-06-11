@@ -31,7 +31,7 @@
 - Clone your application's code repository onto the EC2 instance:
     
     ```bash
-    git clone https://github.com/N4si/DevSecOps-Project.git
+    git clone https://github.com/vishal-rathod-1/DevSecOps.git
     ```
     
 
@@ -198,7 +198,7 @@ pipeline {
         }
         stage('Checkout from Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/N4si/DevSecOps-Project.git'
+                git branch: 'main', url: 'https://github.com/vishal-rathod-1/DevSecOps.git'
             }
         }
         stage("Sonarqube Analysis") {
@@ -288,7 +288,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/N4si/DevSecOps-Project.git'
+                git branch: 'main', url: 'https://github.com/vishal-rathod-1/DevSecOps.git'
             }
         }
         stage("Sonarqube Analysis "){
@@ -675,6 +675,3 @@ That's it! You've successfully installed and set up Grafana to work with Prometh
 
 1. **Implement Notification Services:**
     - Set up email notifications in Jenkins or other notification mechanisms.
-=======
-# DevSecOps
->>>>>>> 7ae319b056277c6a6f0408ac6405d56364bfbec4
